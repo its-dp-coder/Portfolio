@@ -1,75 +1,69 @@
-# React + TypeScript + Vite
+# Dependra Pratap Singh - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website showcasing my skills, projects, experience, education, and certifications.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I am a Computer Science and Engineering graduate interested in:
 
-## React Compiler
+- Python Development
+- AI & Machine Learning
+- Software Engineering
+- Backend Development
+- React & TypeScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Python
+- Java
+- JavaScript
+- SQL
+- PostgreSQL
+- MongoDB
+- Git & GitHub
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Projects
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### HireFlow - Job Recruitment REST API
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+A recruitment REST API built with Python, FastAPI, PostgreSQL, JWT authentication, testing, Docker, and CI/CD.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Task Management REST API
 
-```
+A secure task management API built with Python, FastAPI, PostgreSQL, SQLAlchemy, JWT authentication, testing, Docker, and GitHub Actions.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### ECG Arrhythmia Classification System
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+A machine learning project using Python and XGBoost to classify ECG heartbeats into five categories.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Experience
 
-```
+### Product Developer Intern - EOXS
+
+Worked with Python, JavaScript, XML, PostgreSQL, and Odoo ERP to develop, test, debug, and maintain software features.
+
+## Education
+
+**B.Tech - Computer Science & Engineering**  
+United Institute Of Technology
+
+**Diploma - Information Technology**  
+Government Polytechnic Lucknow
+
+## Portfolio
+
+🌐 [Visit My Portfolio](https://portfolio-mu-mocha-19.vercel.app/)
+
+## Resume
+
+📄 [View My Resume](https://portfolio-mu-mocha-19.vercel.app/resume.pdf)
+
+## Contact
+
+📧 Email: dependrapratapsingh56@gmail.com
+
+---
+
+**Dependra Pratap Singh**
